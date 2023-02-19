@@ -1,13 +1,8 @@
 # Quizlet-get-answer
 
-Modern Project Open Soruce And Free Of Cost 100% Safe Credit Liesy
-
-Find Bug And Track Report Send At: dungkm456@gmail.com
-
-Use My Project To Make Modern App
+- HI Im Liesy XD
 # How to Use ?
-
-#  
+- install it like extension
 ![image](https://user-images.githubusercontent.com/63604038/219939775-656eacc5-7988-4c82-bd99-e0e44da154d6.png)
 
 # Remind
@@ -23,5 +18,9 @@ if it not working ?
 - Email: dungkm456@gmail.com
 
 - website: http://liesy.cf/profile/
+#
+- Modern Project Open Soruce And Free Of Cost 100% Safe Credit Liesy
 
+- Find Bug And Track Report Send At: dungkm456@gmail.com
 
+- Use My Project To Make Modern App
