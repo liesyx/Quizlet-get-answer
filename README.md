@@ -3,7 +3,7 @@
 - HI Im Liesy XD
 # How to Use ?
 - install it like extension
-![image](https://user-images.githubusercontent.com/63604038/219939775-656eacc5-7988-4c82-bd99-e0e44da154d6.png)
+- ![image](https://user-images.githubusercontent.com/63604038/219939775-656eacc5-7988-4c82-bd99-e0e44da154d6.png)
 
 # Remind
 
