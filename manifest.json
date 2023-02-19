@@ -1,0 +1,86 @@
+{
+  "manifest_version": 2,
+  "name": "Quizlet_ Liesy^^",
+  "default_locale": "en",
+  "icons": {
+    "48": "icons/liesy_iconx48.png",
+    "96": "icons/liesy_iconx96.png",
+    "192": "icons/liesy_iconx192.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.latin.it/frase/*",
+        "*://*.latin.it/versione/*",
+        "*://*.latin.it/autore/*/*/*"
+      ],
+      "js": [
+        "latin.content.js"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "*://*.quizlet.com/explanations/textbook-solutions/*",
+        "*://*.quizlet.com/explanations/questions/*"
+      ],
+      "js": [
+        "quizlet.content.js"
+      ],
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "*://*.skuola.net/*"
+      ],
+      "js": [
+        "skuola.content.js"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "*://doc.studenti.it/appunti/*",
+        "*://doc.studenti.it/vedi_tutto/*"
+      ],
+      "js": [
+        "studenti.content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "quizletbypass@rospino74.github.io",
+      "strict_min_version": "57.0",
+      "update_url": "https://github.com/rospino74/Quizlet-Bypass/raw/master/public/updates.json"
+    }
+  },
+  "permissions": [
+    "*://*.latin.it/*",
+    "*://www-latin-it.translate.goog/*",
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.quizlet.com/*",
+    "cookies",
+    "tabs",
+    "*://*.skuola.net/*",
+    "*://*.studenti.it/*"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "48": "icons/liesy_iconx48.png",
+      "96": "icons/liesy_iconx96.png",
+      "192": "icons/liesy_iconx192.png"
+    },
+    "default_title": "__MSG_actionTitle__",
+    "default_popup": "action/popup.html"
+  },
+  "version": "1.4.5",
+  "description": "Removes paywall Quizlet"
+}
